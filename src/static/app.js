@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <h4>${name}</h4>
           <p>${details.description}</p>
           <p><strong>Schedule:</strong> ${details.schedule}</p>
+          <p><strong>Enrolled:</strong> ${details.participants.length} / ${details.max_participants} students</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
         `;
 
